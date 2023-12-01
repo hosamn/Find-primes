@@ -16,6 +16,7 @@ def isprime(num):
 
 def allprimes(num):
     '''
-    returns all prime numbers equal or less than num
+    returns all prime numbers equal
+    or less than num
     '''
     return [i for i in range(num+1) if isprime(i)]
