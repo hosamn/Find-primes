@@ -13,6 +13,12 @@ def isprime(num):
     x = [num%i for i in range(num-1,1,-1)]
     return all(x)
 
+def isprime2(n):
+  for i in range(2, n):
+    if n % i == 0:
+        return False
+  return True
+
 
 def allprimes(num):
     '''
